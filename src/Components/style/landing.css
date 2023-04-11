@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap");
+:root {
+  --primary-color: fff;
+  --secondary: fff;
+  --accent-color: fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Teko", sans-serif;
+}
+
+.landing {
+  height: 100vh;
+  padding: 2em;
+  background-image: url("./img/bm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  color: aliceblue;
+}
+.landing__title {
+  width: 50%;
+  font-size: 72px;
+  text-transform: uppercase;
+}
+.landing__motto {
+  width: 50%;
+  font-size: 38px;
+  line-height: 0.85em;
+}
+.landing__btn {
+  padding: 0.25em 0.75em;
+  background: transparent;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 0.2em;
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  box-shadow: 0px 20px 50px aliceblue;
+  font-family: "Teko", sans-serif;
+  font-size: 32px;
+  transition: 300ms;
+}
+.landing__btn:hover {
+  background: rgba(175, 218, 247, 0.5);
+  box-shadow: 2px 2px 2px aliceblue;
+  rotate: -2deg;
+  cursor: pointer;
+}
+.landing__media {
+  display: flex;
+  gap: 1em;
+  width: 35%;
+  margin-left: auto;
+  translate: 0 -4em;
+}
+.landing__icons {
+  width: 4em;
+  height: 4em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.landing__icons--fb {
+  background-image: url("./img/facebook.png");
+}
+.landing__icons--insta {
+  background-image: url("./img/instagram.png");
+}
+.landing__icons--tiktok {
+  background-image: url("./img/tik-tok.png");
+}/*# sourceMappingURL=landing.css.map */
